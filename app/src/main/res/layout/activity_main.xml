@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4C4C4C"
+    android:contentDescription="@string/button_tractor_desc"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.talsel.whitey.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="#292929">
+
+        <ImageView
+            android:id="@+id/button_stop"
+            android:layout_width="104dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@drawable/ripple_effect"
+            android:contentDescription="@string/button_stop_desc"
+            app:srcCompat="@drawable/squarestop" />
+
+    </LinearLayout>
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="#292929">
+
+        <ImageView
+            android:id="@+id/button_tractor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:background="@drawable/ripple_effect"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/button_tractor_desc"
+            app:srcCompat="@drawable/tractor2" />
+
+        <ImageView
+            android:id="@+id/button_train"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:contentDescription="@string/button_train_desc"
+            app:srcCompat="@drawable/train" />
+    </GridLayout>
+</android.widget.LinearLayout>
