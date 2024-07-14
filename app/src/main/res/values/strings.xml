@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Whitey</string>
-    <string name="button_tractor_desc">Play the sound of a Tractor</string>
+    <string name="button_layout_desc">Play sounds</string>
     <string name="button_stop_desc">Stop playing all sounds</string>
+    <string name="button_tractor_desc">Play the sound of a Tractor</string>
     <string name="button_train_desc">Play the sound of a Train</string>
+    <string name="button_aeroplane_desc">Play the sound of an Aeroplane</string>
+    <string name="button_whitenoise_desc">Play the sound of White Noise</string>
+    <string name="button_lakewater_desc">Play the sound of Lake Water</string>
+    <string name="button_ocean_desc">Play the sound of an Ocean</string>
 </resources>

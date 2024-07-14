@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="Whitey">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-07-12T20:45:02.374268Z">
+        <DropdownSelection timestamp="2024-07-12T20:54:46.469949600Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="PhysicalDevice" identifier="serial=34191JEHN13044" />

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#4C4C4C"
-    android:contentDescription="@string/button_tractor_desc"
+    android:contentDescription="@string/button_layout_desc"
     android:gravity="center"
     android:orientation="vertical"
     tools:context="com.talsel.whitey.MainActivity">
@@ -38,7 +38,7 @@
         android:background="#292929">
 
         <ImageView
-            android:id="@+id/button_tractor"
+            android:id="@+id/button_whitenoise"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_row="0"
@@ -47,14 +47,40 @@
             android:layout_margin="10dp"
             android:layout_columnWeight="1"
             android:layout_rowWeight="1"
+            android:contentDescription="@string/button_whitenoise_desc"
+            app:srcCompat="@drawable/whitenoise" />
+
+        <ImageView
+            android:id="@+id/button_lakewater"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:background="@drawable/ripple_effect"
+            android:layout_column="1"
+            android:layout_margin="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:contentDescription="@string/button_lakewater_desc"
+            app:srcCompat="@drawable/lakewater" />
+
+        <ImageView
+            android:id="@+id/button_tractor"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="1"
+            android:background="@drawable/ripple_effect"
+            android:layout_column="0"
+            android:layout_margin="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
             android:contentDescription="@string/button_tractor_desc"
-            app:srcCompat="@drawable/tractor2" />
+            app:srcCompat="@drawable/tractor" />
 
         <ImageView
             android:id="@+id/button_train"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:layout_row="0"
+            android:layout_row="1"
             android:layout_column="1"
             android:layout_margin="10dp"
             android:layout_columnWeight="1"
@@ -62,5 +88,31 @@
             android:background="@drawable/ripple_effect"
             android:contentDescription="@string/button_train_desc"
             app:srcCompat="@drawable/train" />
+
+        <ImageView
+            android:id="@+id/button_aeroplane"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_margin="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:contentDescription="@string/button_aeroplane_desc"
+            app:srcCompat="@drawable/aeroplane" />
+
+        <ImageView
+            android:id="@+id/button_ocean"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_column="2"
+            android:layout_margin="10dp"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/ripple_effect"
+            android:contentDescription="@string/button_ocean_desc"
+            app:srcCompat="@drawable/ocean" />
     </GridLayout>
 </android.widget.LinearLayout>
