@@ -8,7 +8,7 @@
     android:contentDescription="@string/button_layout_desc"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context="com.talsel.whitey.MainActivity">
+    tools:context="se.talsel.whitey.MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

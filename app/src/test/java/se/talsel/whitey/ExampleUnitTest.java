@@ -1,4 +1,4 @@
-package com.talsel.whitey;
+package se.talsel.whitey;
 
 import org.junit.Test;
 

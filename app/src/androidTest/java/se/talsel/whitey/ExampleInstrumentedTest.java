@@ -1,4 +1,4 @@
-package com.talsel.whitey;
+package se.talsel.whitey;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.talsel.whitey", appContext.getPackageName());
+        assertEquals("se.talsel.whitey", appContext.getPackageName());
     }
 }
