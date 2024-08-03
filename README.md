@@ -1,7 +1,7 @@
 # whitey
 Incomplete sleep sounds android app I created in 2021 using deprecated SoundPool class.
 
-SoundPool class works better than non-deprecated MediaPlayer class because of the loop handling. MediaPlayer pauses the current sound before playing it from start again, whereas SoundPool simply loops without any noticeable pauses.
+SoundPool class works better than supported MediaPlayer class because of the loop handling. MediaPlayer pauses the current sound before playing it from start again, whereas SoundPool simply loops without any noticeable pauses.
 
 ### Acknowledged bugs
 
